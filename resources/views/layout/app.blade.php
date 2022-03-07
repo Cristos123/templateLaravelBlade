@@ -3,7 +3,7 @@
 
 <head>
     <base href="">
-    <title>@yield('title', 'Pay less for Data subscription and Airtime with Konnect') - Konnect</title>
+    <title>@yield('title')Template</title>
     @include('layout.partials.head-meta')
 </head>
 
@@ -32,11 +32,6 @@
 
 
 
-    @stack('modals')
-
-    <script>
-        var hostUrl = "assets/";
-    </script>
 
 
     <script src="./js/global.js"></script>
