@@ -2,8 +2,14 @@
 <html lang="en">
 
 <head>
-    <base href="">
-    <title>@yield('title')Template</title>
+
+    <title> @yield('title') Tradio</title>
+    <link rel="stylesheet" href="./vendor/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
     @include('layout.partials.head-meta')
 </head>
 

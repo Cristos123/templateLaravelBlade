@@ -447,11 +447,6 @@
 
 @endsection()
 
-@push('modals')
-    {{-- Modals for the page can be here. And you can put it in the normal. But this seems cleaner. --}}
-@endpush
-
-
 @push('styles')
 @endpush
 
